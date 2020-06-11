@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    box-sizing: border-box;
+}
+.wrap-1{
+    width: 80%;
+    margin: auto;
+
+}
+.header-scetion{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(90deg,
+    rgba(2, 0, 36, 0.411) 0%,
+     rgba(0, 0, 0, 0.856) 0%,
+      rgba(0, 0, 0, 0.74) 35%
+      , rgba(205, 207, 166, 0.034) 43%,
+       rgba(0, 0, 0, 0.815) 55%,
+        rgb(0, 0, 0) 86%,
+        rgba(13, 13, 16, 0.5) 100%,
+         rgba(67, 66, 82, 0.26) 100%) ,url('./fitnessTemplate-img/fitness-power-man-person-17840.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*--------------navbar--------------*/
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+a{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    font-size: 16px;
+}
+.logo-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.logo-2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.nav-bar-links-sqaure{
+    height: 10px;
+    width: 10px;
+    background: red;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -10px;
+}
+/*navbar hover*/
+
+li a:hover{
+    color: #fff;
+}
+/*--------main header---------------------*/
+
+.main-header{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+/* main header box style*/
+.h1-1, .h1-2{
+    display: block;
+    font-size: 35px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.h1-1, .isa{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.h1-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.main-header-p{
+    padding: 20px 0px 40px 0px;
+    color: rgb(163, 161, 161);
+}
+.free{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: rgb(231, 231, 231);
+}
+.main-header-btn{
+    padding: 13px 70px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    background-color: rgb(68, 162, 65);
+    border-radius: 25px;
+}
+/* main header box style End*/
+
+/*footer start*/
+
+.footer{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(245, 245, 245);
+}
+.wrap-2{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-title{
+    padding-bottom: 50px;
+    color: #000000;
+}
+.footer-text{
+    padding: 0 20px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    font-size: 17px;
+}
+.ff{
+    padding-bottom: 30px;
+}
+.days{
+    width: 550px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.days span{
+    color: rgb(197, 197, 197);
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: all 0.5s linear;
+    border-radius: 20px;
+}
+.footer-box{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes{
+    padding-top: 50px;
+    background: #fff ;
+    height: 200px;
+    width: 220px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 30px;
+    text-align:center;    
+}
+.footer-box-1{
+    margin-left: 0;
+}
+.boxes span, i{
+    display:blocK;
+}
+.boxes i{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: rgb(14, 119, 14);
+}
+.gray{
+    color: rgb(197, 197, 197);
+}
+.time{
+font-size: 10px;
+padding-bottom: 3px ;
+}
+.Trainers{
+    font-size: 13px;
+    padding-top: 3px ;
+}
+.box-titles{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+.green{
+    text-shadow: none;
+    background: green;
+    border-radius: 20px;
+}
+.days span:hover{
+    background: green;
+    border-radius: 20px;
+    color: #fff;
+}
+/* -------------------------footer end---------------- */
+
+/* --------------------footer section start -------------------*/
